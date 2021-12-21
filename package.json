@@ -17,10 +17,12 @@
     "@storybook/addon-essentials": "^6.5.0-alpha.4",
     "@storybook/addon-links": "^6.5.0-alpha.4",
     "@storybook/react": "^6.5.0-alpha.4",
-    "babel-loader": "^8.2.3"
+    "babel-loader": "^8.2.3",
+    "chromatic": "^6.2.3"
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=17b71b7d0a5b"
   }
 }
